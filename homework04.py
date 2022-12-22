@@ -19,4 +19,4 @@ while n > 0:
     item = n % 2
     new_list.append(item)
     n //= 2
-print(new_list.reverse())
+print("".join([str(elem) for elem in new_list[::-1]]))
